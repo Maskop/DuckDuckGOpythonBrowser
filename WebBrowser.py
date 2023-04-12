@@ -1,4 +1,5 @@
 import webbrowser
+import os
 
 def main():
 	userinput = input("Search by DuckDuckGo: ")
@@ -19,5 +20,6 @@ def main():
 			case _:
 				adress += ch
 	webbrowser.open(adress)
+	os.system('clear')
 
 main()
